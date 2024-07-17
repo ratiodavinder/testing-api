@@ -89,3 +89,11 @@ Error Response: HTTP 404 Not Found
 
 
 Api Integration in front-end
+In page-signup.php make a form for sign up and in api.js use script for integrate it and enqueue this in functions.php.
+After registration it will give message for Registration successful! if not register for some reason so it gives Registration failed. Please try again.
+ 
+In page-login.php make a form and script for login functionality 
+While we login by this so it will store a created jwt token in localstorage and also redirect us to the dashboard.
+
+After login both register and login menu are not visible to user in nav bar if user is not login so they will be visible 
+
